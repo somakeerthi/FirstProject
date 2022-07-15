@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* css file of CssProject(conference example in pdf)  */
+.dashboardCss {
+  height: 19vh;
+  background: purple;
+  width: 100%;
+}
+
+.buttonCss {
+  background: green;
+  color: white;
+}
+
+.sp1 {
+  height: 20vh;
+  background: purple;
+  margin-top: 12px;
+  color: white;
+}
+.sp2 {
+  height: 20vh;
+  background: purple;
+  margin-top: 12px;
+  color: white;
+}
+
+.sp3 {
+  height: 20vh;
+  background: purple;
+  margin-top: 12px;
+  color: white;
+}
+
+.sp4 {
+  height: 20vh;
+  background: purple;
+  margin-top: 12px;
+  color: white;
+}
+.speakerCss {
+  display: inline-block;
+  margin: 0px;
+  height: 20vh;
+  border: 4px solid white;
+  padding: 11px;
+}
+/* Ecommerce example project from pdf  */
+.box{
+  background-color: purple;
+  
+    height: 45vh;
+    width: 30%;
+    margin: 7px;
+}
+.form{
+  width: 45%;
+  margin: 5px;
+  background-color: purple;
+}
+
+/* Survey project from pdf */
+.First{
+  background-color: purple;
+}
+
+/* charts project from pdf */
+.linechartcss{
+  border: 2px solid purple;
+  height: 30vh;
+
+}
+
+.colcss{
+  border: 3px solid purple;
+  margin-right: 15px;
+  width:25%;
+  margin-top: 15px;
+  height:30vh;
+ }
+.thirdbox{
+  border: 3px solid purple;
+  margin-right: 33px;
+   height: 30vh;
+   width:30%;
+   border-spacing: 15px 50px;
+}
+/* Tick project from pdf */
+.register1
+{
+ margin:0px auto;
+ background-color: purple;
+ 
+}
+.register
+{
+ margin:0px auto;
+ background-color: purple;
+ margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
