@@ -1,10 +1,15 @@
+import { Card } from 'antd';
+import useSelection from 'antd/lib/table/hooks/useSelection';
 import axios from 'axios';
 import React,{useState} from 'react'
 
-export function Login(props) {
+
+export function ReactLogin(props) {
     const[value,setValues] = useState({})
+    
     const inputValues = (event) => {
         debugger;
+        
         const name = event.target.name
         const iValues = event.target.value
         debugger;
@@ -29,13 +34,14 @@ export function Login(props) {
 
     return (
         <>
+        
         <form>
-  <div class="form-group">
+  <div className="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" onChange={inputValues} />
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
-  <div class="form-group">
+  <div className="form-group">
     <label for="exampleInputPassword1">Password</label>
     <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" onChange={inputValues} />
   </div>

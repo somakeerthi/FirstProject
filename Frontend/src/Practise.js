@@ -85,3 +85,8 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 console.log(fruits.slice(0,2));//display output based on indexes 
 console.log(fruits.slice(1));//mention no of elemnts & display output as left over items.here it doent count as indexes
 
+console.log("hi");
+setTimeout(() => console.log("there"),5000)
+console.log("you");
+
+
