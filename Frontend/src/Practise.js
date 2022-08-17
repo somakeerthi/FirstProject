@@ -1,4 +1,31 @@
 
+// let y=2;
+// let y=3;//Redeclaration is not allowed in let & const.
+
+var z=3;
+var z=4;
+console.log(z) // Redeclaration is allowed in var.
+
+
+let x = 10;
+x=2;// reassigning the varaible is allowed in let and var but not in const.
+ console.log(x);
+
+
+//  x = 6;
+// let x; //this is hoisting & its not allowed in let (cant call the varaibles b4 declaration).
+//  console.log(x);
+
+// carName = "Volvo";
+// const carName; //this is hoisting & its not allowed in const
+// console.log(carName)
+
+carName = "Volvo";
+var carName; //this is hoisting & its allowed in var.
+ console.log(carName)
+
+
+
 //     const array = [
 //     {
 //         name: "keerthi",
